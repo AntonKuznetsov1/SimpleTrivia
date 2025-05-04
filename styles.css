@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    padding:0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(iso-republic-milky-way-sky-1100x736.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 50px;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 20px;
+    border: solid 3px black;
+    background-image:linear-gradient(to bottom right, rgb(252, 152, 218), rgb(63, 55, 60) );
+    font-family: sans-serif;
+}
+.item{
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px;
+    margin: 5px;
+    background: linear-gradient(45deg, #7e1852, #491e48);
+    color: rgb(255, 226, 250);
+    border: solid black 2px;
+}
+.button:hover {
+    background: linear-gradient(45deg, #c5227f, #381c38);
+    transform: scale(1.05); /* Slight pop effect */
+    transition: 0.3s;
+}
+.button:active {
+    transform: scale(0.90); /* Click animation */
+}
+#question{
+    margin: 5px 10px;
+}
+.left{
+    margin-left: 10px;
+}
+.right{
+    margin-right: 10px;
+}

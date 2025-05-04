@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trivia</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="mainContainer">
+            <div class="container">
+                <h1 class="item">Simple Trivia</h1>
+                <h2 class="item" id="question">What is Capital of Canada?</h2>
+                <div class="options item">
+                    <button class="button left" onclick="isRight(1, turn, rightSequence)" id="1">Toronto</button>
+                    <button class="button" onclick="isRight(2, turn, rightSequence)" id="2">Vancouver</button>
+                    <button class="button" onclick="isRight(3, turn, rightSequence)" id="3">Ottawa</button>
+                    <button class="button right" onclick="isRight(4, turn, rightSequence)" id="4">Ontario</button>
+                </div>
+                <h2 class="item" id="output">Choose an Option</h2>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
