@@ -55,3 +55,25 @@ body{
 .right{
     margin-right: 10px;
 }
+@media(max-width: 750px){
+    .options{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .button {
+        display: inline-block;
+        border-radius: 10px; /* Rounded corners */
+        font-size: 18px;
+        margin: 5px;
+        background: linear-gradient(45deg, #7e1852, #491e48);
+        color: rgb(255, 226, 250);
+        border: solid black 2px;
+    }
+}
+.left{
+    margin-left: 10px;
+}
+.right{
+    margin-right: 10px;
+}
