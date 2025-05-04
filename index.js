@@ -2,7 +2,7 @@ let questions = [
     "What is Capital of Canada?",
     "What is most popular name?",
     "What is the biggest ocean?",
-    "When did Titanic sink?",
+    "What year did Titanic sink?",
     "Where is the highest mountain?"
 ];
 
