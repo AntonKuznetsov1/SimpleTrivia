@@ -49,12 +49,12 @@ body{
 #question{
     margin: 5px 10px;
 }
-.left{
+@media (min-width : 750px){.left{
     margin-left: 10px;
 }
 .right{
     margin-right: 10px;
-}
+}}
 @media(max-width: 750px){
     .options{
         display: grid;
